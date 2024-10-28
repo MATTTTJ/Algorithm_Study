@@ -13,7 +13,7 @@ int main() {
     {
         cout << "Middle";
     }
-    else
+    else if (0.5 < a)
     cout << "Low";
     return 0;
 }
