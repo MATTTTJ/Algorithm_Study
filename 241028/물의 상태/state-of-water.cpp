@@ -12,7 +12,7 @@ int main() {
     }
     else if(n >= 100)
     {
-        s = "vaper";
+        s = "vapor";
     }
     else 
     {
