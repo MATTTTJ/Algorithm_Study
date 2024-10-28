@@ -10,5 +10,9 @@ int main() {
     {
         cout << n << "\n" << "minus";
     }
+    else
+    {
+        cout << n << "\n" << "plus";
+    }
     return 0;
 }
