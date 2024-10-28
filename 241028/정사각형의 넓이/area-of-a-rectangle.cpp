@@ -7,7 +7,7 @@ int main() {
     cin >> n;
     if(n < 5)
     {
-        cout << "tiny";
+        cout << n* n <<  "\ntiny";
     }
     else
     {
