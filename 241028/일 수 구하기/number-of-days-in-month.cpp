@@ -13,7 +13,8 @@ int main() {
     {
         cout << "31";
     }
-    else{
+    else if(n % 2 == 0)
+    {
         cout << "30";
     }
     return 0;
