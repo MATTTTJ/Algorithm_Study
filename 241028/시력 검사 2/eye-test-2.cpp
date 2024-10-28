@@ -9,11 +9,11 @@ int main() {
     {
         cout << "High";
     }
-    else if ( 0.5f <=  a < 1.0f)
+    else if ( 0.5f <=  a && a < 1.0f)
     {
         cout << "Middle";
     }
-    else if (0.5 < a)
+    else if (0.5f > a && 0 <= a)
     cout << "Low";
     return 0;
 }
