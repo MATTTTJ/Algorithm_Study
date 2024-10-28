@@ -15,7 +15,7 @@ int main() {
     {
         cout << "mask";
     }
-    else
+    else if( n < 1000)
     {
        cout << "no"; 
     }
