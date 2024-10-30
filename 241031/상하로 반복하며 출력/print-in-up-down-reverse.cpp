@@ -4,31 +4,27 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int a[10][10];
-    int n; 
-    bool c = false;
+    int n, cnt = 0; 
     cin >> n;
     
     for(int i = 1; i <= n; i++)
     {
-        c = !c;
-        for(int j = 1; j <= n; j++)
+        cnt = 1;
+        if(i % 2 == 1)
         {
-            if(c)
+            for(int j = 1; j <= n; j++)
             {
                 a[j][i] = j;
             }
-            else
+        }
+        else
+        {
+            for(int j = n; j >= 1; j--)
             {
-                if(j == 4)
-                a[j][i] = 1;
-                else if(j ==  3)
-                a[j][i] = 2;
-                else if(j == 2)
-                a[j][i] = 3;
-                else if (j ==1)
-                a[j][i] = 4;
+                a[cnt++][i] = j;
             }
         }
+        
     }
 
     for(int i = 1; i <= n; i++)
