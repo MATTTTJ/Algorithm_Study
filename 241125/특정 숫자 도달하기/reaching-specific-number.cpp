@@ -9,7 +9,8 @@ int main() {
     {
         cin >> a[i];
     }
-
+    cout << fixed;
+    cout.precision(1);
     for(int i = 0; i < 10; i++)
     {
         if(a[i] < 250)
@@ -18,12 +19,13 @@ int main() {
         }
         else
         {
-            cout << fixed;
-            cout.precision(1);
+          
             cout << sum << " ";
             cout << (float)sum / i;
-            break;
+            return 0;
         }
     }
+    cout << sum << " ";
+    cout << (float)sum / 10;
     return 0;
 }
