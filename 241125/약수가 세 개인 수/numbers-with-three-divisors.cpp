@@ -18,7 +18,7 @@ int main() {
                 cnt++;
             }
 
-            if(tmp + 1 >= i)
+            if(tmp + 1 > i)
             {
                 if(cnt == 3)
                 {
