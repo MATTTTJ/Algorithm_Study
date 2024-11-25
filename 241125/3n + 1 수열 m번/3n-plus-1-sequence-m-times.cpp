@@ -9,6 +9,7 @@ int main() {
     for(int i = 0; i < n; i++)
     {
         cin >> m;
+        cnt = 0;
         while(true)
         {
             if(m == 1)
