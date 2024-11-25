@@ -17,17 +17,18 @@ int main() {
             {
                 cnt++;
             }
+
+            if(tmp + 1 >= i)
+            {
+                if(cnt == 3)
+                {
+                    res++;
+                    break;
+                }
+                break;
+            }
             tmp++;
-            
-            if(cnt == 3)
-            {
-                res++;
-                break;
-            }
-            if(tmp == i)
-            {
-                break;
-            }
+
         }
     }
     cout << res;
